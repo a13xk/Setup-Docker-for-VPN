@@ -27,9 +27,9 @@ This shell script automates Docker setup to redirect traffic from containers thr
     sudo iptables --table nat --flush
     ```
 6. Install `bridge-utils` package if necessary:
-  ```
-  sudo apt install bridge-utils
-  ```
+    ```
+    sudo apt install bridge-utils
+    ```
 6. Stop and remove `docker0` interface:
     ```
     sudo ifconfig docker0 down
